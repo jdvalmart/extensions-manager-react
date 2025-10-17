@@ -3,9 +3,9 @@ import { Button } from "./Button"
 
 export const Filters = () => {
   return (
-    <div>
-        <h2 className="dark:text-Neutral-0 text-center text-[2.125rem] font-bold mb-6">Extensions List</h2>
-        <div className="flex place-content-between ">
+    <div className="mb-6 md:flex md:items-center md:justify-between">
+        <h2 className="dark:text-Neutral-0 text-center text-[2.125rem] font-bold mb-6 md:mb-0">Extensions List</h2>
+        <div className="flex justify-between md:gap-4 ">
             <Button>All</Button>
             <Button>Active </Button>
             <Button>Inactive </Button>
