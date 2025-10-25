@@ -24,6 +24,8 @@ export const CardsContainer = ({filter}) => {
                 <Card 
                     key={extension.name} 
                     {...extension}
+                    extensions={extensions}
+                    setExtensions={setExtensions}
 
                 />
             ))
